@@ -5,6 +5,7 @@ def validate_version(version):
         raise ValueError("Invalid version format.")
     
 
+
 def version_compare( version1, version2 ):
         validate_version(version1)
         validate_version(version2)
